@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Deepak">
+  <test thread-count="5" name="MyTestResults">
+    <classes>
+      <class name="testNG.FirstProgram"/>
+      <class name="testNG.Priority_Sample"/>
+      <class name="testNG.Annotations_Sample"/>
+      <class name="testNG.SecondProgram"/>
+      <class name="testNG.FB_DataProvider"/>
+      <class name="testNG.AakruthiSample"/>
+      <class name="testNG.DataProviderSample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserTesting">
+    <!-- <Chrome browser script> -->
+	<test thread-count="5" name="ChromeBrowserTestResult">
+	<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testNG.CrossBrowserTesting" />
+			
+		</classes>
+	</test> <!-- CrossBrowserTesting -->
+	
+	<!-- <IE browser script> -->
+	<test thread-count="5" name="IEBrowserTestResult">
+	<parameter name="browser" value="ie"></parameter>
+		<classes>
+			<class name="testNG.CrossBrowserTesting" />
+			
+		</classes>
+	</test> <!-- CrossBrowserTesting -->
+	
+	<!-- <Firefox browser script> -->
+	<test thread-count="5" name="FirefoxBrowserTestResult">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testNG.CrossBrowserTesting" />
+			
+		</classes>
+	</test> <!-- CrossBrowserTesting -->
+	
+</suite> <!-- Suite -->
